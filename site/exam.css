@@ -1,5 +1,5 @@
 /* resets */
-body, h1 {
+* {
     margin: 0;
     padding: 0;
 }
@@ -44,16 +44,23 @@ section {
 
 .TOPIC {
     display: flex;
-    font-size: 220%;
-    text-align: center;
-    margin-top: 60px;
-    margin-bottom: 50px;
-    background: #101010;
-    height: 120px;
     align-items: center;
     justify-content: center;
-    border-radius: 15px;
+    font-size: 220%;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    height: 120px;
     color: wheat;
+}
+
+.TOPIC p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #101010;
+    border-radius: 12px;
+    width: 98.5%;
+    height: 200px;
 }
 
 
@@ -66,7 +73,7 @@ section {
 
 #contents h2 {
     font-size: 20px;
-    margin-left: 5px;
+    margin-bottom: 10px;
 }
 
 #contents>.highlight a:hover{
@@ -78,8 +85,8 @@ section {
     color: white;
 }
 
-.highlight.light {
-    padding: 0;
+#contents>.highlight{
+    margin-left: 20px;
 }
 
 
