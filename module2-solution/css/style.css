@@ -1,0 +1,105 @@
+
+/* all-reset */
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+/* base styles */
+h1 {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+p {
+	padding: 10px;
+	margin-top: 50px;
+	
+}
+
+body {
+	font-family: helvetica, arial, sans-serif;
+}
+
+
+.main {
+	width: 100%;
+}
+
+.col-lg-4 div {
+	position: relative;
+}
+
+
+.content-1, .content-2, .content-3 {
+	background-color: #ececec;
+	width: 95%;
+	margin: 0 auto 15px auto;
+	border: 1px solid #7cbc2f;
+	position: relative;
+	border-radius: 5px;
+}
+
+
+
+
+.content-1 h2 {
+	color: gray;
+	background-color: peachpuff;
+	width: 63px;
+	padding: 5px;
+	position: absolute;
+	right: 0;
+	border-radius: 0 3.5px 0 0;
+}
+
+
+.content-2 h2 {
+	color: darksalmon;
+	background-color: #b9fcff;
+	width: 79px;
+	padding: 5px;
+	position: absolute;
+	right: 0;
+	border-radius: 0 3.5px 0 0;
+}
+
+
+.content-3 h2 {
+	color: white;
+	background-color: #cd59db;
+	width: 95px;
+	padding: 5px;
+	position: absolute;
+	right: 0;
+	border-radius: 0 3.5px 0 0;
+}
+
+
+
+
+
+/* tablet screens */
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-6 {
+		float: left;
+		width: 50%;
+	}
+
+	.item-3 {
+		width: 100%;
+	}
+}
+
+/* desktop screens */
+
+@media (min-width: 992px) {
+	.col-lg-4 {
+		float: left;
+		width: 33.33%;
+	}
+}
